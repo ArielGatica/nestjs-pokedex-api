@@ -5,6 +5,7 @@
 # Execute in develop
 
 1. Clone repository
+
 2. Execute
 
 ```
@@ -21,6 +22,17 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Get file ```.env.template``` about ```.env``` file
+
+6.  Execute run app in dev environment with command:
+```
+yarn start:dev
+```
+
+7. Re-insert database in __development__
+```
+localhost:3000/api/v1/seed
+```
 ## Stack used
 * MongoDB
 * NestJS
